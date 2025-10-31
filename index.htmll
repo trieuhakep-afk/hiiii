@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>趙氏河的專業履歷</title>
+<style>
+body {
+font-family: 'Noto Sans TC', sans-serif;
+margin: 0;
+padding: 0;
+background: #f4f6f8;
+color: #333;
+}
+
+.container {
+max-width: 900px;
+margin: 40px auto;
+background: #fff;
+border-radius: 15px;
+box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+overflow: hidden;
+animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(20px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+header {
+background: linear-gradient(90deg, #4b6cb7, #182848);
+color: white;
+text-align: center;
+padding: 60px 20px 80px 20px;
+position: relative;
+}
+
+header img {
+width: 130px;
+height: 130px;
+border-radius: 50%;
+border: 4px solid #fff;
+object-fit: cover;
+position: absolute;
+left: 50%;
+bottom: -70px;
+transform: translateX(-50%);
+box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+header h1 {
+margin: 0;
+font-size: 32px;
+letter-spacing: 2px;
+}
+
+header p {
+font-size: 16px;
+margin-top: 8px;
+font-weight: 500;
+}
+
+main {
+padding: 100px 30px 50px;
+line-height: 1.8;
+}
+
+.section-title {
+font-size: 20px;
+font-weight: bold;
+color: #4b6cb7;
+margin-top: 30px;
+margin-bottom: 10px;
+border-left: 4px solid #182848;
+padding-left: 10px;
+}
+
+.info {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+margin-bottom: 20px;
+}
+
+.info-item {
+flex: 1 1 40%;
+background: #e8f0fe;
+border-radius: 10px;
+padding: 12px 16px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.tag {
+display: inline-block;
+background: #d0e1fd;
+color: #1a3d7c;
+border-radius: 20px;
+padding: 6px 14px;
+margin: 4px;
+font-size: 14px;
+font-weight: 500;
+}
+
+footer {
+text-align: center;
+background: #f1f4f9;
+color: #555;
+font-size: 14px;
+padding: 20px;
+border-top: 1px solid #dbe2ef;
+}
+
+.quote {
+font-style: italic;
+color: #4b6cb7;
+text-align: center;
+margin: 20px 0;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>趙氏河</h1>
+<p>亞洲大學・健康管理學系一年級學生 | 專注於健康與專業發展</p>
+<img src="avatar.jpg" alt="Avatar">
+</header>
+
+<main>
+<div class="section">
+<div class="section-title">基本資料</div>
+<div class="info">
+<div class="info-item"><strong>性別：</strong> 女</div>
+<div class="info-item"><strong>學歷：</strong> 大學一年級</div>
+<div class="info-item"><strong>學校：</strong> 亞洲大學（Asia University）</div>
+<div class="info-item"><strong>科系：</strong> 健康管理學系</div>
+<div class="info-item"><strong>聯絡方式：
+</div>
+</div>
+
+<div class="section">
+<div class="section-title">語言能力</div>
+<span class="tag">越南語（母語）</span>
+<span class="tag">中文（中級）</span>
+<span class="tag">英文（基礎）</span>
+</div>
+
+<div class="section">
+<div class="section-title">專業技能與興趣</div>
+<span class="tag">閱讀與學習</span>
+<span class="tag">健康管理書籍</span>
+<span class="tag">中文學習</span>
+<span class="tag">音樂欣賞</span>
+<span class="tag">自我成長與規劃</span>
+</div>
+
+<div class="section">
+<div class="section-title">自我介紹</div>
+<p>
+我是趙氏河，來自越南，目前就讀於亞洲大學健康管理學系一年級。我熱愛學習新知，特別對健康與生活品質管理領域充滿興趣。平時喜歡閱讀健康管理與心理成長類的書籍，也積極學習中文，希望能更深入了解不同文化並提升自我表達能力。
+</p>
+<p>
+我相信健康不僅是身體的狀態，更是生活態度的體現。在學期間，我希望培養專業知識與溝通能力，結合理論與實踐，為未來能貢獻社會健康發展打下基礎。
+</p>
+<div class="quote">「關心健康，從理解人開始。」</div>
+</div>
+
+<div class="section">
+<div class="section-title">未來目標</div>
+<p>
+・持續提升中文能力與跨文化溝通技巧。<br>
+・深入學習健康促進、營養與心理健康相關知識。<br>
+・參與健康管理與社區服務專案，累積實務經驗。<br>
+・結合專業與人文關懷，成為推動健康生活的專業人才。
+</p>
+</div>
+</main>
+
+<footer>
+趙氏河 | 亞洲大學健康管理學系一年級學生 
+</footer>
+</div>
+</body>
+</html>
